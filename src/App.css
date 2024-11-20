@@ -61,3 +61,65 @@ li {
 strong {
   color: #495057;
 }
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+  .app {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .selector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  select {
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 300px;
+  }
+
+  button {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .courseDetails {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  li {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  .selector select, .selector button {
+    font-size: 1rem;
+  }
+
+  .courseDetails {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  .courseDetails ul li {
+    font-size: 0.8rem;
+  }
+}
