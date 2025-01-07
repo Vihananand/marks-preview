@@ -140,6 +140,74 @@ const courseData = {
       "ObjectiveTypeEndTerm": { "Achieved": 29, "Total": 40 },
       "ObjectiveTypeMidTerm": { "Achieved": 9, "Total": 15 }
     }
+  },
+  "CSE202": {
+    "CourseName": "OBJECT ORIENTED PROGRAMMING",
+    "Weightage": {
+      "ContinuousAssessment": { "Achieved": 50, "Total": 50 },
+      "PracticalEndTerm": { "Achieved": 34, "Total": 45 },
+      "Attendance": { "Achieved": 5, "Total": 5 }
+    }
+  },
+  "CSE205": {
+    "CourseName": "DATA STRUCTURES AND ALGORITHMS",
+    "Weightage": {
+      "ContinuousAssessment": { "Achieved": 29, "Total": 50 },
+      "PracticalEndTerm": { "Achieved": 29, "Total": 45 },
+      "Attendance": { "Achieved": 5, "Total": 5 }
+    }
+  },
+  "CSE211": {
+    "CourseName": "COMPUTER ORGANIZATION AND DESIGN",
+    "Weightage": {
+      "ContinuousAssessment": { "Achieved": 16, "Total": 25 },
+      "Attendance": { "Achieved": 4, "Total": 5 },
+      "ObjectiveTypeEndTerm": { "Achieved": 35, "Total": 50 },
+      "ObjectiveTypeMidTerm": { "Achieved": 16, "Total": 20 }
+    }
+  },
+  "CSE306": {
+    "CourseName": "COMPUTER NETWORKS",
+    "Weightage": {
+      "ContinuousAssessment": { "Achieved": 18, "Total": 25 },
+      "TheoryEndTerm": { "Achieved": 26, "Total": 35 },
+      "Attendance": { "Achieved": 5, "Total": 5 },
+      "ObjectiveTypeEndTerm": { "Achieved": 9, "Total": 15 },
+      "ObjectiveTypeMidTerm": { "Achieved": 12, "Total": 20 }
+    }
+  },
+  "CSE307": {
+    "CourseName": "INTERNETWORKING ESSENTIALS",
+    "Weightage": {
+      "ContinuousAssessment": { "Achieved": 39, "Total": 45 },
+      "PracticalEndTerm": { "Achieved": 36, "Total": 50 },
+      "Attendance": { "Achieved": 5, "Total": 5 }
+    }
+  },
+  "GEN231": {
+    "CourseName": "COMMUNITY DEVELOPMENT PROJECT",
+    "Weightage": {
+      "PracticalEndTerm": { "Achieved": 88, "Total": 100 }
+    }
+  },
+  "MTH302": {
+    "CourseName": "PROBABILITY AND STATISTICS",
+    "Weightage": {
+      "ContinuousAssessment": { "Achieved": 17, "Total": 25 },
+      "TheoryEndTerm": { "Achieved": 1, "Total": 35 },
+      "Attendance": { "Achieved": 3, "Total": 5 },
+      "ObjectiveTypeEndTerm": { "Achieved": 4, "Total": 15 },
+      "ObjectiveTypeMidTerm": { "Achieved": 15, "Total": 20 }
+    }
+  },
+  "PEL136": {
+    "CourseName": "ADVANCED COMMUNICATION SKILLS-II",
+    "Weightage": {
+      "ContinuousAssessment": { "Achieved": 23, "Total": 30 },
+      "PracticalMidTerm": { "Achieved": 10, "Total": 15 },
+      "PracticalEndTerm": { "Achieved": "Awaited", "Total": 40 },
+      "Attendance": { "Achieved": 9, "Total": 15 }
+    }
   }
 };
 
