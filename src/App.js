@@ -223,6 +223,10 @@ function App() {
     setCourseDetails(courseData[selectedCourse]);
   };
 
+  const calculateTotalMarksObtained = (weightage) => {
+    return Object.values(weightage).reduce((total, item) => total + item.Achieved, 0);
+  };
+
   return (
     <div className="app">
       <h1>Course Data Viewer</h1>
@@ -248,6 +252,10 @@ function App() {
               </li>
             ))}
           </ul>
+          <br />
+          <strong>
+            Total Marks Obtained: {calculateTotalMarksObtained(courseDetails.Weightage)} / 100
+          </strong>
         </div>
       )}
     </div>
