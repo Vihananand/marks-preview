@@ -205,7 +205,7 @@ const courseData = {
     "Weightage": {
       "ContinuousAssessment": { "Achieved": 23, "Total": 30 },
       "PracticalMidTerm": { "Achieved": 10, "Total": 15 },
-      "PracticalEndTerm": { "Achieved": "Awaited", "Total": 40 },
+      "PracticalEndTerm": { "Achieved": 21, "Total": 40 },
       "Attendance": { "Achieved": 9, "Total": 15 }
     }
   }
